@@ -3,12 +3,14 @@ using UnityEngine;
 
 public class Vehicle : Destructible
 {
-    protected float damage;
-    protected float firerate;
+    public float damage;
+    public float firerate;
     protected float firecd;
-    protected float shotscale;
-    protected float range;
-    protected float shotspeed;
+    public float shotscale;
+    public float range;
+    public float shotspeed;
+	public GameObject shot;
+	public Vector3 shotoffset;
 
 	public Vehicle() : base()
 	{
@@ -27,11 +29,13 @@ public class Vehicle : Destructible
             firecd -= Time.deltaTime;
         }
     }
-    public void fire(Vector3 direction){
+    public void Fire(Vector3 direction){
         if (firecd <= 0)
         {
-            transform.Rotate(transform.forward - direction);
-            //GameObject instantiatedProjectile = Instantiate (projectile, transform.position, direction);
+			Vector3 local = transform.InverseTransformVector(direction);
+			transform.LookAt(transform.position+local);
+			shot.GetComponent<Projectile>().Stats(direction*shotspeed,damage,range,shotscale);
+           	GameObject instantiatedProjectile = (GameObject)Instantiate (shot, transform.position+shotoffset, transform.rotation);
             firecd = 1 / firerate;
         }
     }

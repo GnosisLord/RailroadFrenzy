@@ -6,31 +6,36 @@ public class Movable : MonoBehaviour
 {
     public bool idle;
     public float movetime;
-    public float speed;
+	public float movementlock;
+    public float acceleration;
+	public float maxspeed;
     private Vector3 velocity;
-    protected CharacterController characterController;
 
     public void Start()
     {
         movetime = 0f;
-        characterController = gameObject.GetComponent<CharacterController>();
     }
     public void Update()
     {
-        if (movetime > 0)
+        if (movementlock == 0 || movetime > 0)
         {
-            movetime -= Time.deltaTime;
-            characterController.Move(velocity * Time.deltaTime);
+			Vector3.ClampMagnitude(velocity,maxspeed);
+            transform.Translate(velocity * Time.deltaTime);
         }
         else
         {
             idle = true;
         }
+		if (movetime > 0) {
+			movetime -= Time.deltaTime;
+		}
+		velocity *= .9f;
     }
     public void Move(Vector3 direction)
     {
+		Vector3 local = transform.InverseTransformDirection (direction);
         idle = false;
-        movetime = 0.25f;
-        velocity = direction;
+        movetime = movementlock;
+		velocity += local.normalized*acceleration;
     }
 }

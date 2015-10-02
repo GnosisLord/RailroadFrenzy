@@ -37,4 +37,11 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
+	public void Stats(Vector3 velocity, float damage, float range, float scale){
+		this.velocity = velocity;
+		this.damage = damage;
+		this.range = range;
+		this.scale = scale;
+		transform.localScale = new Vector3(scale, scale, scale);
+	}
 }
