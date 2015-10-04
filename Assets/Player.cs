@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Player : Vehicle
 {
-    public Movable movement;
+    
 
     public void Start()
     {
@@ -15,35 +15,35 @@ public class Player : Vehicle
         base.Update();
         if (Input.GetKey(KeyCode.W))
         {
-            movement.Move(new Vector3(0, 0, 1));
+            Move(new Vector3(0, 0, 1));
         }
         if (Input.GetKey(KeyCode.A))
         {
-            movement.Move(new Vector3(-1, 0, 0));
+            Move(new Vector3(-1, 0, 0));
         }
         if (Input.GetKey(KeyCode.S))
         {
-            movement.Move(new Vector3(0, 0, -1));
+            Move(new Vector3(0, 0, -1));
         }
         if (Input.GetKey(KeyCode.D))
         {
-            movement.Move(new Vector3(1, 0, 0));
+            Move(new Vector3(1, 0, 0));
         }
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
-			Fire(new Vector3(0, 0, 1));
+			Fire(0f);
 		}
 		if (Input.GetKey(KeyCode.LeftArrow))
 		{
-			Fire(new Vector3(-1, 0, 0));
+			Fire((float)(270f));
 		}
 		if (Input.GetKey(KeyCode.DownArrow))
 		{
-			Fire(new Vector3(0, 0, -1));
+			Fire((float) 180f);
 		}
 		if (Input.GetKey(KeyCode.RightArrow))
 		{
-			Fire(new Vector3(1, 0, 0));
+			Fire((float) 90f);
 		}
     }
 }

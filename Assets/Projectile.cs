@@ -26,7 +26,7 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void OnCollisionEnter(Collision col)
+	void OnCollisionEnter (Collision col)
     {
         if (col.gameObject.GetComponent<Destructible>() != null)
         {

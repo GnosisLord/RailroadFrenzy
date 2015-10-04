@@ -12,6 +12,7 @@ GameObject:
   - 135: {fileID: 13593642}
   - 23: {fileID: 2358464}
   - 114: {fileID: 11470876}
+  - 82: {fileID: 8203198}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -62,6 +63,75 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181798}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!82 &8203198
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181798}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 79ee7751ab191f548b7f3232381afa0a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .737999976
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!114 &11470876
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -73,10 +143,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2014a91fdcf00e4bbfa4c6fafd9025e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  friendly: 0
+  friendly: 1
   damage: 1
-  range: 2
-  velocity: {x: 0, y: 0, z: 30}
+  range: 1
+  velocity: {x: 5.49134984e-06, y: 3.95210054e-06, z: -30}
   scale: 1
 --- !u!135 &13593642
 SphereCollider:
@@ -100,6 +170,18 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: friendly
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 79ee7751ab191f548b7f3232381afa0a, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Volume
+      value: .737999976
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

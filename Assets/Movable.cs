@@ -38,4 +38,10 @@ public class Movable : MonoBehaviour
         movetime = movementlock;
 		velocity += local.normalized*acceleration;
     }
+	public void Rotate(float angle){
+		velocity = Quaternion.AngleAxis (angle, transform.up) * velocity;
+	}
+	public Vector3 getVelocity(){
+		return velocity;
+	}
 }
