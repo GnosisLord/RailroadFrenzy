@@ -31,19 +31,23 @@ public class Player : Vehicle
         }
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
-			Fire(0f);
+			Face(0f);
+			Fire ();
 		}
 		if (Input.GetKey(KeyCode.LeftArrow))
 		{
-			Fire((float)(270f));
+			Face((float)(270f));
+			Fire ();
 		}
 		if (Input.GetKey(KeyCode.DownArrow))
 		{
-			Fire((float) 180f);
+			Face((float) 180f);
+			Fire ();
 		}
 		if (Input.GetKey(KeyCode.RightArrow))
 		{
-			Fire((float) 90f);
+			Face((float) 90f);
+			Fire ();
 		}
     }
 }

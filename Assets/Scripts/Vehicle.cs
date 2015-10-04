@@ -33,12 +33,14 @@ public class Vehicle : Destructible
 	public void Move(Vector3 direction){
 		movement.Move (direction);
 	}
-    public void Fire(float angle){
+	public void Face(float angle){
+		float r = angle - transform.rotation.eulerAngles.y;
+		transform.Rotate(new Vector3(0f,r,0f));
+		movement.Rotate (-r);
+	}
+    public void Fire(){
         if (firecd <= 0)
         {
-			float r = angle - transform.rotation.eulerAngles.y;
-			transform.Rotate(new Vector3(0f,r,0f));
-			movement.Rotate (-r);
 			shot.GetComponent<Projectile>().Stats(transform.forward*shotspeed,damage,range,shotscale);
            	GameObject instantiatedProjectile = (GameObject)Instantiate (shot, transform.position+shotoffset, new Quaternion(0f,0f,0f,0f));
             firecd = 1 / firerate;
