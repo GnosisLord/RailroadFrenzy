@@ -33,7 +33,7 @@ public class Projectile : MonoBehaviour
             if (col.gameObject.GetComponent<Destructible>().friendly != this.friendly)
             {
                 col.gameObject.GetComponent<Destructible>().Damage(damage);
-				Destroy(gameObject);
+				Destroy(this.gameObject);
             }
             
         }

@@ -15,7 +15,7 @@ public class Enemy : Vehicle {
 	public void Start()
 	{
 		base.Start();
-		friendly = true;
+		friendly = false;
 	}
 	
 	// Update is called once per frame
@@ -57,15 +57,15 @@ public class Enemy : Vehicle {
 	}
 	public float FindDirection(GameObject target){
 		Vector3 adjusted = transform.rotation * (target.transform.position - this.transform.position);
-		float angle = Vector3.Angle(adjusted,new Vector3(0f,0f,1f));
-		if (angle < 45 || angle >= 315) {
+		float angle = Vector3.Angle(adjusted,transform.forward);
+		if (angle < 45 ) {
 			return 0f;
 		}
-		if (angle >= 45 && angle < 135) {
-			return 90f;
-		}
-		if (angle >= 135 && angle < 225) {
+		if (angle >= 135) {
 			return 180f;
+		}
+		if (Vector3.Angle (adjusted,transform.right)<=90) {
+			return 90f;
 		}
 		return 270f;
 	}
