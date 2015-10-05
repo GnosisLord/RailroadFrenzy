@@ -26,15 +26,16 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
     }
-	void OnCollisionEnter (Collision col)
+	void OnTriggerEnter (Collider col)
     {
         if (col.gameObject.GetComponent<Destructible>() != null)
         {
-            if (col.gameObject.GetComponent<Destructible>().friendly != friendly)
+            if (col.gameObject.GetComponent<Destructible>().friendly != this.friendly)
             {
                 col.gameObject.GetComponent<Destructible>().Damage(damage);
+				Destroy(gameObject);
             }
-            Destroy(gameObject);
+            
         }
     }
 	public void Stats(Vector3 velocity, float damage, float range, float scale){

@@ -49,5 +49,8 @@ public class Player : Vehicle
 			Face((float) 90f);
 			Fire ();
 		}
+		if (Input.GetKey (KeyCode.Escape)) {
+			Application.LoadLevel("Demo");
+		}
     }
 }

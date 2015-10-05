@@ -8,7 +8,7 @@ public class Enemy : Vehicle {
 	private float aggrotimer; //time remaining until next aggro check;
 	public float aimdelay; //time between turning towards Player and firing;
 	private float aiming; //time until Enemy starts firing
-	public Vehicle target;
+	public GameObject target;
 	public Vector3 desired;
 
 	// Use this for initialization
@@ -23,7 +23,17 @@ public class Enemy : Vehicle {
 		base.Update();
 		if (aggroed) {
 			Move (Seek ());
-			// Fire at the player
+			if(aiming>0){
+				aiming -= Time.deltaTime;
+			}else{
+				float arc = Vector3.Angle((target.transform.position - this.transform.position),transform.forward);
+				if (arc < 45 || arc >= 315) {
+					Fire ();
+				}else{
+					Face (FindDirection(target));
+					aiming = aimdelay;
+				}
+			}
 		} else if (aggrotimer <= 0) {
 			aggroed = Aggro ();
 			aggrotimer = aggrodelay;
@@ -78,7 +88,7 @@ public class Enemy : Vehicle {
 			return desired;
 		}
 	}
-	void OnCollisionEnter (Collision col)
+	void OnTriggerEnter (Collider col)
 	{
 		if (col.gameObject.GetComponent<Vehicle>() != null)
 		{
