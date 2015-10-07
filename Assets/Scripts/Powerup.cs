@@ -10,6 +10,8 @@ public class Powerup : MonoBehaviour {
 	public float shotspeed; 
 	public float speed; 
 	public float scale;
+	public string name;
+	public string description;
 	// Use this for initialization
 	void Start () {
 	

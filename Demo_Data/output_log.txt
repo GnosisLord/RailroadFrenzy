@@ -26,7 +26,7 @@ Platform assembly: C:\Users\Vasta\Documents\GitHub\RailroadFrenzy\Demo_Data\Mana
 Loading C:\Users\Vasta\Documents\GitHub\RailroadFrenzy\Demo_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Vasta\Documents\GitHub\RailroadFrenzy\Demo_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Vasta\Documents\GitHub\RailroadFrenzy\Demo_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.221 seconds
+- Completed reload, in  0.195 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -36,8 +36,8 @@ Platform assembly: C:\Users\Vasta\Documents\GitHub\RailroadFrenzy\Demo_Data\Mana
 Shader 'Legacy Shaders/Bumped Specular': fallback shader 'Legacy Shaders/Specular' not found
 Shader 'Nature/Terrain/Specular': dependency 'BaseMapShader' shader 'Hidden/TerrainEngine/Splatmap/Specular-Base' not found
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: da4 -> priority: 1 
-  Thread -> id: 2360 -> priority: 1 
+  Thread -> id: 115c -> priority: 1 
+  Thread -> id: 8cc -> priority: 1 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at Enemy.Seek () [0x00000] in <filename unknown>:0 
@@ -60,7 +60,241 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -74,6 +308,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -87,6 +328,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -100,6 +348,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -113,6 +368,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -126,6 +388,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -139,6 +408,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -152,6 +428,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -165,6 +448,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -178,6 +468,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -203,7 +500,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -217,6 +528,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -230,6 +548,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -243,6 +568,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -256,6 +588,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -269,6 +608,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -282,6 +628,13 @@ NullReferenceException
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -302,12 +655,6 @@ NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at Enemy.Seek () [0x00000] in <filename unknown>:0 
   at Enemy.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -333,20 +680,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -372,20 +720,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -411,20 +760,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -450,20 +800,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -489,20 +840,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -528,20 +880,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -567,20 +920,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -606,20 +960,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -645,20 +1000,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -684,20 +1040,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -723,20 +1080,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -762,20 +1120,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -801,20 +1160,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -840,20 +1200,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -879,20 +1240,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -918,20 +1280,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -957,20 +1320,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -996,20 +1360,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1035,20 +1400,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1074,20 +1440,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1113,20 +1480,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1152,20 +1520,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1191,20 +1560,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1230,20 +1600,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1269,20 +1640,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1308,20 +1680,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1347,20 +1720,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1386,20 +1760,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1420,12 +1795,6 @@ NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
   at Enemy.Seek () [0x00000] in <filename unknown>:0 
   at Enemy.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1451,20 +1820,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1490,20 +1860,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1529,20 +1900,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1568,20 +1940,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1607,20 +1980,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1646,20 +2020,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1685,20 +2060,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1724,20 +2100,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1763,20 +2140,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1802,20 +2180,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1841,20 +2220,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1880,20 +2260,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1919,20 +2300,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1958,20 +2340,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -1997,20 +2380,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2036,20 +2420,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2075,20 +2460,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2114,20 +2500,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2153,20 +2540,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2192,20 +2580,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2231,20 +2620,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2270,20 +2660,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2309,20 +2700,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2348,20 +2740,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2387,20 +2780,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2426,20 +2820,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2465,20 +2860,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2504,20 +2900,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2543,20 +2940,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2582,20 +2980,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2621,20 +3020,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2660,20 +3060,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2699,20 +3100,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2738,20 +3140,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2777,20 +3180,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2816,20 +3220,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2855,20 +3260,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2894,20 +3300,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2933,20 +3340,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -2972,20 +3380,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3011,20 +3420,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3050,20 +3460,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3089,20 +3500,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3128,20 +3540,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3167,20 +3580,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3206,20 +3620,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3245,20 +3660,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3284,20 +3700,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3323,20 +3740,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3362,20 +3780,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3401,20 +3820,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3440,20 +3860,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3479,20 +3900,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3518,20 +3940,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3557,20 +3980,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
@@ -3596,20 +4020,21 @@ NullReferenceException
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at Enemy.Seek () [0x00000] in <filename unknown>:0 
-  at Enemy.Update () [0x00000] in <filename unknown>:0 
+  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.GameObject:get_transform ()
-  at FollowCamera.Update () [0x00000] in <filename unknown>:0 
+  at Enemy.Seek () [0x00000] in <filename unknown>:0 
+  at Enemy.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
