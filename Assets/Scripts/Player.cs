@@ -77,5 +77,8 @@ public class Player : Vehicle
 			}
 			Fire ();
 		}
+		if (Input.GetKey (KeyCode.Escape)) {
+			Application.LoadLevel("Demo");
+		}
     }
 }
