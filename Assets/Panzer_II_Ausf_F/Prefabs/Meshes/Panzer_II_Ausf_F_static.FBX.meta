@@ -3,7 +3,12 @@ guid: e6ea68ce2385b6e4caff572b03d3bf00
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: Panzer_II_Ausf_F_static
+    11100000: //RootNode
   materials:
     importMaterials: 0
     materialName: 0

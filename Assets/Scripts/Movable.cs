@@ -19,7 +19,7 @@ public class Movable : MonoBehaviour
     {
         if (movementlock == 0 || movetime > 0)
         {
-			Vector3.ClampMagnitude(velocity,maxspeed);
+			velocity = Vector3.ClampMagnitude(velocity,maxspeed);
             transform.Translate(velocity * Time.deltaTime);
         }
         else

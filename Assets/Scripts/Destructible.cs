@@ -4,8 +4,8 @@ using UnityEngine;
 public class Destructible : MonoBehaviour
 {
     public float hp;
-    protected float hpmax;
-    protected float invul;
+    public float hpmax;
+    public float invul;
     public float invulduration;
     public float scale;
     public bool friendly;
@@ -19,19 +19,20 @@ public class Destructible : MonoBehaviour
     public void Update()
     {
 		transform.localScale = new Vector3(scale,scale,scale);
+		if (invul > 0) {
+			invul -= Time.deltaTime;
+		}
     }
     public void Damage(float damage)
     {
-        if(invul<=0){
-            hp -= damage;
-            if(hp<=0){
-                Destroy();
-            }
-            else{
-                invul = invulduration;
-            }
-        }
-
+        if (invul <= 0) {
+			hp -= damage;
+			if (hp <= 0) {
+				Destroy ();
+			} else {
+				invul = invulduration;
+			}
+		} 
     }
     public void Destroy()
     {

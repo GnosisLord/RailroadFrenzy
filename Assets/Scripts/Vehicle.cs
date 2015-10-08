@@ -13,10 +13,11 @@ public class Vehicle : Destructible
 	public Vector3 shotoffset;
 	public Movable movement;
 
-	public Vehicle() : base()
-	{
-        
-	}
+	public bool explosiveshot;
+	public bool homingshot;
+	public bool backshot;
+	public bool quadshot;
+	
     public void Start()
     {
         base.Start();
@@ -42,9 +43,18 @@ public class Vehicle : Destructible
         if (firecd <= 0)
         {
 			shot.GetComponent<Projectile>().Stats(transform.forward*shotspeed,damage,range,shotscale);
-           	GameObject instantiatedProjectile = (GameObject)Instantiate (shot, transform.position+shotoffset, new Quaternion(0f,0f,0f,0f));
+			shot.GetComponent<Projectile>().Special (homingshot,explosiveshot);
+           	Instantiate (shot, transform.position+(transform.rotation*shotoffset), new Quaternion(0f,0f,0f,0f));
+			if (quadshot) {
+				Instantiate (shot, transform.position+(transform.rotation*shotoffset), new Quaternion(0f, 0.7071f,0f, 0.7071f));
+				Instantiate (shot, transform.position+(transform.rotation*shotoffset), new Quaternion(0f,1f,0f,0f));
+				Instantiate (shot, transform.position+(transform.rotation*shotoffset), new Quaternion(0f, -0.7071f,0f, 0.7071f));
+			}else if(backshot){
+				Instantiate (shot, transform.position+(transform.rotation*shotoffset), new Quaternion(0f,1f,0f,0f));
+			}
             firecd = 1 / firerate;
         }
+
     }
 	public void Upgrade(float damage, float hp, float firerate, float shotscale, float range, float shotspeed, float speed, float scale){
 		this.damage += damage;
@@ -56,5 +66,10 @@ public class Vehicle : Destructible
 		this.shotspeed += shotspeed;
 		movement.maxspeed += speed;
 		this.scale += scale;
+	}
+	public void Destroy()
+	{
+		GameController.get ().Death (this);
+		Destroy(gameObject);
 	}
 }

@@ -31,22 +31,50 @@ public class Player : Vehicle
         }
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
-			Face(0f);
+			if (Input.GetKey(KeyCode.LeftArrow))
+			{
+				Face (315f);
+			}else if(Input.GetKey (KeyCode.RightArrow)){
+				Face (45f);
+			}else{
+				Face(0f);
+			}
 			Fire ();
 		}
 		if (Input.GetKey(KeyCode.LeftArrow))
 		{
-			Face((float)(270f));
+			if (Input.GetKey(KeyCode.UpArrow))
+			{
+				Face (315f);
+			}else if(Input.GetKey (KeyCode.DownArrow)){
+				Face (225f);
+			}else{
+				Face(270f);
+			}
 			Fire ();
 		}
 		if (Input.GetKey(KeyCode.DownArrow))
 		{
-			Face((float) 180f);
+			if (Input.GetKey(KeyCode.LeftArrow))
+			{
+				Face (225);
+			}else if(Input.GetKey (KeyCode.RightArrow)){
+				Face (135);
+			}else{
+				Face(180);
+			}
 			Fire ();
 		}
 		if (Input.GetKey(KeyCode.RightArrow))
 		{
-			Face((float) 90f);
+			if (Input.GetKey(KeyCode.UpArrow))
+			{
+				Face (45);
+			}else if(Input.GetKey (KeyCode.DownArrow)){
+				Face (135);
+			}else{
+				Face(90f);
+			}
 			Fire ();
 		}
     }
