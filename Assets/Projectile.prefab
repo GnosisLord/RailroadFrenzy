@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 181798}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
   m_LocalPosition: {x: -.0699996948, y: -2.05800009, z: 1.45799994}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -144,10 +144,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   friendly: 1
-  damage: 3
-  range: 2
-  velocity: {x: 5.05762182e-06, y: 0, z: -30}
-  scale: 2
+  damage: 1
+  range: 1
+  velocity: {x: -29.9999981, y: 0, z: -3.57627869e-06}
+  scale: 1
+  blastradius: 0
+  explosive: 0
+  homing: 1
+  tracking: 0
 --- !u!135 &13593642
 SphereCollider:
   m_ObjectHideFlags: 1

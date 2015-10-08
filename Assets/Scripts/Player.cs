@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class Player : Vehicle
 {
-    
+	private float fuel;
+	public float fueldecay = .5f;
+	public float fuelmax = 100f;
 
     public void Start()
     {
@@ -77,8 +79,12 @@ public class Player : Vehicle
 			}
 			Fire ();
 		}
-		if (Input.GetKey (KeyCode.Escape)) {
-			Application.LoadLevel("Demo");
+		fuel -= fueldecay;
+		if (fuel <= 0f) {
+			GameController.get ().Death(this);
 		}
     }
+	public void refuel(float amount){
+		fuel += amount;
+	}
 }

@@ -38,4 +38,10 @@ public class Destructible : MonoBehaviour
     {
         Destroy(gameObject);
     }
+	public void Heal(float healing){
+		hp += healing;
+		if (hp > hpmax) {
+			hp = hpmax;
+		}
+	}
 }
