@@ -78,6 +78,7 @@ AudioSource:
   m_Pitch: 1
   Loop: 0
   Mute: 0
+  Spatialize: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
@@ -144,13 +145,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   friendly: 1
-  damage: 1
+  damage: 3
   range: 1
-  velocity: {x: -29.9999981, y: 0, z: -3.57627869e-06}
+  velocity: {x: 0, y: 5.37838741e-06, z: 35}
   scale: 1
   blastradius: 0
   explosive: 0
-  homing: 1
+  homing: 0
   tracking: 0
 --- !u!135 &13593642
 SphereCollider:
