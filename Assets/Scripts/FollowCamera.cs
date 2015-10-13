@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class FollowCamera : MonoBehaviour
 {
-    public GameObject target;
+    public GameObject target;	//Follow target
 	public void Start(){
         
     }

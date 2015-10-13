@@ -12,6 +12,7 @@ public class HealthPickup : MonoBehaviour {
 	void Update () {
 		transform.Rotate(new Vector3(0f,2f,0f));
 	}
+	//On collision with player, restores 1 health
 	void OnTriggerEnter(Collider other)
 	{
 		Player p = other.GetComponent<Player> ();

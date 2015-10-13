@@ -3,15 +3,15 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public bool friendly;
-    public float damage;
-    public float range;
-    public Vector3 velocity;
-    public float scale;
-	public float blastradius;
-	public bool explosive;
-	public bool homing;
-	public float tracking;
+    public bool friendly;	//Friendliness of entity this was fired from, only hits destructibles of opposite friendliness
+    public float damage;	//Damage dealt to  destructible on hit
+    public float range;		//Time until this destroys itself
+    public Vector3 velocity;	//Directional velocity
+    public float scale;			//Scale, relative to firing vehicle
+	public float blastradius;	//Radius damaged if explosive
+	public bool explosive;		//Damages all destructibles in blastradius upon end of range
+	public bool homing;			//Seeks nearby destructibles of opposite friendliness
+	public float tracking;		//Magnitude of homing force
 	
     public void Start()
     {
@@ -39,6 +39,7 @@ public class Projectile : MonoBehaviour
 			Destroy(gameObject);
         }
     }
+	//Check for collision with destructible or obstacle
 	void OnTriggerEnter (Collider col)
     {
         if (col.gameObject.GetComponent<Destructible>() != null)
@@ -49,8 +50,11 @@ public class Projectile : MonoBehaviour
 				Destroy(this.gameObject);
             }
             
-        }
+        }if (col.gameObject.CompareTag ("Obstacle")) {
+			Destroy(this.gameObject);
+		}
     }
+	//Damages opposite friendliness destructibles within blastradius
 	void Explode(){
 		Collider[] nearby = Physics.OverlapSphere (transform.position, blastradius);
 		foreach (Collider obj in nearby) {
@@ -64,10 +68,12 @@ public class Projectile : MonoBehaviour
 		}
 		Destroy(this.gameObject);
 	}
+	//Setting nonstandard projectile type tag
 	public void Special(bool homing, bool explosive){
 		this.homing = homing;
 		this.explosive = explosive;
 	}
+	//Setting projectible statistics
 	public void Stats(Vector3 velocity, float damage, float range, float scale){
 		this.velocity = velocity;
 		this.damage = damage;

@@ -2,16 +2,16 @@
 using System.Collections;
 
 public class Powerup : MonoBehaviour {
-	public float damage; 
-	public float hp;
-	public float firerate; 
-	public float shotscale; 
-	public float range; 
-	public float shotspeed; 
-	public float speed; 
-	public float scale;
-	public string name;
-	public string description;
+	public float damage; 		//Change in Damage
+	public float hp;			//Change in HPMax
+	public float firerate; 		//Change in FireRate
+	public float shotscale; 	//Change in Shotscale
+	public float range; 		//Change in Shot Range
+	public float shotspeed; 	//Change in Projectile Speed
+	public float speed; 		//Change in Movement Speed
+	public float scale;			//Change in Scale
+	public string name;			//Name of this Upgrade
+	public string description;	//Description of this Upgrade
 	// Use this for initialization
 	void Start () {
 	

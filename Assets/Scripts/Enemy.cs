@@ -9,17 +9,18 @@ public class Enemy : Vehicle {
 	private float aggrotimer; //time remaining until next aggro check
 	//Firing Variables
 	public bool shooting; //Shoots at player when aggroed
+	public bool aimless;	//Shoots randomly even when not facing player
 	public float aimdelay; //time between turning towards Player and firing
 	private float aiming; //time until Enemy starts firing
 	//Destruct Variables
-	public bool selfdestruct;
-	public float destructrange;
-	public float blastrange;
+	public bool selfdestruct;	//Self Destructs when within destructrange
+	public float destructrange;	//Range from player at which this will Self Destruct
+	public float blastrange;	//Range at which destructibles are damaged when Self Destructing
 	//Movement Variables
 	public bool seeking; //Seeks player when aggroed
 	public bool wandering; //Moves randomly when not aggroed
-	private Vector3 desired;
-	private Player player;
+	private Vector3 desired; //Vector of targeted object
+	private Player player;	//Reference to Player for Seeking and Aiming
 
 
 	// Use this for initialization
@@ -32,31 +33,36 @@ public class Enemy : Vehicle {
 	
 	// Update is called once per frame
 	void Update () {
+		//Gets Player reference if it doesn't have it
 		if (player == null) {
 			player = GameController.get ().getPlayer ();
 		}
 		base.Update();
 		if (aggroed) {
+			//Seeking Behavior
 			if(seeking){
 				Move (Seek ());
 			}
+			//Aiming and Shooting Behavior
 			if(aiming>0){
 				aiming -= Time.deltaTime;
 			}else{
 				float arc = Vector3.Angle((player.transform.position - this.transform.position),transform.forward);
-				if (arc < 30 && shooting) {
+				if ((arc < 30 || aimless)&& shooting) {
 					Fire ();
 				}else{
 					Face (FindDirection(player.gameObject));
 					aiming = aimdelay;
 				}
 			}
+			//Self Destruct Behavior
 			if(selfdestruct){
 				if(Aggro (destructrange)){
 					Explode ();
 				}
 			}
 		} else if (aggrotimer <= 0) {
+			//Check for Aggro
 			aggroed = Aggro (aggrorange);
 			aggrotimer = aggrodelay;
 		} else {
@@ -67,6 +73,7 @@ public class Enemy : Vehicle {
 
 
 	}
+	//Checks for Player object withing range
 	public bool Aggro(float range){
 		Collider[] nearby = Physics.OverlapSphere (transform.position, range);
 		foreach (Collider obj in nearby) {
@@ -77,6 +84,7 @@ public class Enemy : Vehicle {
 		return false;
 		
 	}
+	//Determines angle to target at 45 degree increments
 	public float FindDirection(GameObject target){
 		Vector3 adjusted = transform.rotation * (target.transform.position - this.transform.position);
 		float zangle = Vector3.Angle(adjusted,transform.forward);
@@ -104,6 +112,7 @@ public class Enemy : Vehicle {
 		}
 		return 270f;
 	}
+	//Moves in a random direction
 	public void Wander(){
 		if (movement.idle) {
 			Vector3 direction = new Vector3 (0f,0f,0f);;
@@ -154,6 +163,8 @@ public class Enemy : Vehicle {
 			return desired;
 		}
 	}
+
+	//Collision damages Player
 	void OnCollisionEnter (Collision col)
 	{
 		if (col.gameObject.GetComponent<Vehicle>() != null)
@@ -164,6 +175,7 @@ public class Enemy : Vehicle {
 			}
 		}
 	}
+	//Self Destruct Behavior, damages all destructibles within blastrange and destroys self
 	void Explode(){
 		Collider[] nearby = Physics.OverlapSphere (transform.position, blastrange);
 		foreach (Collider obj in nearby) {

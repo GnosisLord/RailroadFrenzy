@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class Player : Vehicle
 {
-	private float fuel;
-	public float fueldecay = .5f;
-	public float fuelmax = 100f;
+	private float fuel;					//Current Fuel, acts as a timer
+	public float fueldecay = .5f;		//Amount of Fuel consumed per second
+	public float fuelmax = 100f;		//Maximum Fuel level
 
     public void Start()
     {
@@ -15,6 +15,7 @@ public class Player : Vehicle
     public void Update()
     {
         base.Update();
+		//Movement Controls
         if (Input.GetKey(KeyCode.W))
         {
             Move(new Vector3(0, 0, 1));
@@ -31,6 +32,7 @@ public class Player : Vehicle
         {
             Move(new Vector3(1, 0, 0));
         }
+		//Firing Controls
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
 			if (Input.GetKey(KeyCode.LeftArrow))
@@ -79,11 +81,13 @@ public class Player : Vehicle
 			}
 			Fire ();
 		}
+		//Fuel consumption
 		fuel -= fueldecay;
 		if (fuel <= 0f) {
 			GameController.get ().Death(this);
 		}
     }
+	//Restores fuel by amount
 	public void refuel(float amount){
 		fuel += amount;
 	}
