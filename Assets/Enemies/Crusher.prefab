@@ -80,6 +80,7 @@ GameObject:
   - 65: {fileID: 6587998}
   - 114: {fileID: 11483568}
   - 114: {fileID: 11474394}
+  - 54: {fileID: 5447374}
   m_Layer: 0
   m_Name: Crusher
   m_TagString: Untagged
@@ -519,6 +520,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181872}
   m_Mesh: {fileID: 4300014, guid: 6e547b3fee2b280479061c8c94afce84, type: 3}
+--- !u!54 &5447374
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131806}
+  serializedVersion: 2
+  m_Mass: 150
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 14
+  m_CollisionDetection: 0
 --- !u!65 &6587998
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -579,6 +595,7 @@ MonoBehaviour:
   invulduration: .100000001
   scale: 3
   friendly: 0
+  immortal: 0
   damage: 1
   firerate: 0
   shotscale: 0
@@ -609,7 +626,19 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Mass
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Constraints
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 131806}

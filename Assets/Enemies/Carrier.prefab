@@ -29,6 +29,7 @@ GameObject:
   - 65: {fileID: 6502822}
   - 114: {fileID: 11429928}
   - 114: {fileID: 11473924}
+  - 54: {fileID: 5439554}
   m_Layer: 0
   m_Name: Carrier
   m_TagString: Untagged
@@ -336,6 +337,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 175268}
   m_Mesh: {fileID: 4300006, guid: 6c477d0093e954f47a2f30227c24c30f, type: 3}
+--- !u!54 &5439554
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132504}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
 --- !u!65 &6502822
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -396,6 +412,7 @@ MonoBehaviour:
   invulduration: .100000001
   scale: 3
   friendly: 0
+  immortal: 0
   damage: 1
   firerate: 0
   shotscale: 0
@@ -429,7 +446,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Mass
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 132504}

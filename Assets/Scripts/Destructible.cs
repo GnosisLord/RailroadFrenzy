@@ -4,11 +4,12 @@ using UnityEngine;
 public class Destructible : MonoBehaviour
 {
     public float hp;			//Current Health (Set to max on start)
-    public float hpmax;			//Initial/Max Health
+    public float hpmax=5f;			//Initial/Max Health
     public float invul; 		//Time until can be damaged again
-    public float invulduration;	//Delay after being damaged until this can be damaged again
-    public float scale;			//Scale (all axes)
-    public bool friendly;		//Allied with player. Entities can only damage destructibles with opposite friendly value
+    public float invulduration=.1f;	//Delay after being damaged until this can be damaged again
+    public float scale=1f;			//Scale (all axes)
+    public bool friendly=false;		//Allied with player. Entities can only damage destructibles with opposite friendly value
+	public bool immortal=false;		//Does not take damage;
 
     public void Start()
     {
@@ -27,7 +28,7 @@ public class Destructible : MonoBehaviour
 	//Reduce HP by damage if not invulnerable and initiate invulnerability
     public void Damage(float damage)
     {
-        if (invul <= 0) {
+        if (invul <= 0 && !immortal) {
 			hp -= damage;
 			if (hp <= 0) {
 				Destroy ();

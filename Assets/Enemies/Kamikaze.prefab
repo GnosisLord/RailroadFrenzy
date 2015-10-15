@@ -93,6 +93,7 @@ GameObject:
   - 114: {fileID: 11499742}
   - 114: {fileID: 11460524}
   - 65: {fileID: 6528422}
+  - 54: {fileID: 5479016}
   m_Layer: 0
   m_Name: Kamikaze
   m_TagString: Untagged
@@ -270,6 +271,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 148872}
   m_Mesh: {fileID: 4300014, guid: ac302222bc5427c44b82985a509ec672, type: 3}
+--- !u!54 &5479016
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193536}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &6528422
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -331,6 +347,7 @@ MonoBehaviour:
   invulduration: .100000001
   scale: 2
   friendly: 0
+  immortal: 0
   damage: 1
   firerate: 0
   shotscale: 0
@@ -361,7 +378,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 193536}

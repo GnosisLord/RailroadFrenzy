@@ -6,13 +6,14 @@ public class GameController : MonoBehaviour {
 	public Player player; 						//Reference to Player Object
 	private static GameController controller;	//Singleton instance of GameController
 	private static System.Random rng;			//Only need one random number generator
-	private int killcount;						//Number of enemies killed
+	private static int killcount;						//Number of enemies killed
 
 	// Use this for initialization
 	void Start () {
 		controller = this;
 		rng = new System.Random ();
 		killcount = 0;
+		GameObject.DontDestroyOnLoad (gameObject);
 	}
 	
 	// Update is called once per frame

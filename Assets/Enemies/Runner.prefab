@@ -61,6 +61,7 @@ GameObject:
   - 65: {fileID: 6550988}
   - 114: {fileID: 11469714}
   - 114: {fileID: 11470720}
+  - 54: {fileID: 5433454}
   m_Layer: 0
   m_Name: Runner
   m_TagString: Untagged
@@ -331,6 +332,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 195658}
   m_Mesh: {fileID: 4300016, guid: dd50156d187613b458585056ee20f769, type: 3}
+--- !u!54 &5433454
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115316}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!65 &6550988
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -375,6 +391,7 @@ MonoBehaviour:
   invulduration: .100000001
   scale: 2
   friendly: 0
+  immortal: 0
   damage: 1
   firerate: 0
   shotscale: 0
@@ -421,7 +438,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 115316}

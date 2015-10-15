@@ -6,11 +6,14 @@ public class Player : Vehicle
 	private float fuel;					//Current Fuel, acts as a timer
 	public float fueldecay = .5f;		//Amount of Fuel consumed per second
 	public float fuelmax = 100f;		//Maximum Fuel level
+	private bool boosting;
+
 
     public void Start()
     {
         base.Start();
 		friendly = true;
+		GameObject.DontDestroyOnLoad (gameObject);
     }
     public void Update()
     {
@@ -81,8 +84,22 @@ public class Player : Vehicle
 			}
 			Fire ();
 		}
+		//Boost Control
+		if(Input.GetKey (KeyCode.Space)){
+			boosting = true;
+			invul = .5f;
+			movement.setBoost(true);
+
+		}else{
+			boosting = false;
+			movement.setBoost(false);
+		}
 		//Fuel consumption
-		fuel -= fueldecay;
+		if (boosting) {
+			fuel -= 10*fueldecay;
+		} else {
+			fuel -= fueldecay;
+		}
 		if (fuel <= 0f) {
 			GameController.get ().Death(this);
 		}

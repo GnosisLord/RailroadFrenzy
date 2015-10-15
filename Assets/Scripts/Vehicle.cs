@@ -75,6 +75,7 @@ public class Vehicle : Destructible
 		this.shotspeed += shotspeed;
 		movement.maxspeed += speed;
 		this.scale += scale;
+		gameObject.GetComponent<Rigidbody> ().mass *= scale;
 	}
 	//Destruction of this vehicle, informs controller
 	public void Destroy()

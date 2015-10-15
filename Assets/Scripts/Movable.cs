@@ -10,6 +10,7 @@ public class Movable : MonoBehaviour
     public float acceleration;		//Velocity Increase per Move call
 	public float maxspeed;			//Velocity magnitude cap
     private Vector3 velocity;		//Current velocity
+	private bool boosting;			//Player boost active
 
     public void Start()
     {
@@ -48,5 +49,9 @@ public class Movable : MonoBehaviour
 	//getter for velocity
 	public Vector3 getVelocity(){
 		return velocity;
+	}
+	//Sets boosting
+	public void setBoost(bool value){
+		boosting = value;
 	}
 }

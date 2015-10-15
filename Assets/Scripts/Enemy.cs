@@ -68,10 +68,17 @@ public class Enemy : Vehicle {
 		} else {
 			aggrotimer-=Time.deltaTime;
 		}
-
-
-
-
+		//Altitude adjustments
+		if (transform.position.y >= 15) {
+			gameObject.GetComponent<Rigidbody> ().useGravity = false;
+		}
+		if (transform.position.y >= 50) {
+			Destroy ();
+		}
+		//Rights flipped vehicles on ground
+		if (transform.position.y < 2 && (Math.Abs(transform.rotation.x) > 10 || Math.Abs (transform.rotation.z) > 10)) {
+			transform.eulerAngles = new Vector3(0,transform.rotation.y,0);
+		}
 	}
 	//Checks for Player object withing range
 	public bool Aggro(float range){
