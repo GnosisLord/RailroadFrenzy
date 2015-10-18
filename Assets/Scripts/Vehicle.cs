@@ -12,6 +12,7 @@ public class Vehicle : Destructible
 	public GameObject shot;		//Prefab of Projectile
 	public Vector3 shotoffset;	//Position offset when Projectile spawns
 	public Movable movement;	//Movement script of this gameObject
+    public Player player;
 
 	public bool explosiveshot;	//Fires explosive projectiles
 	public bool homingshot;		//Fires homing projectiles
@@ -65,10 +66,11 @@ public class Vehicle : Destructible
 
     }
 	//Increases stats, called by upgrades
-	public void Upgrade(float damage, float hp, float firerate, float shotscale, float range, float shotspeed, float speed, float scale){
+	public void Upgrade(float damage, float hp, float maxFuel,float firerate, float shotscale, float range, float shotspeed, float speed, float scale){
 		this.damage += damage;
 		this.hpmax += hp;
 		this.hp += hp;
+        player.fuelmax += maxFuel;
 		this.firerate += firerate;
 		this.shotscale += shotscale;
 		this.range += range;
