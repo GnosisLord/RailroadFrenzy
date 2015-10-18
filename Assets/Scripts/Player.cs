@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class Player : Vehicle
 {
-	private float fuel;					//Current Fuel, acts as a timer
 	public float fueldecay = .5f;		//Amount of Fuel consumed per second
 	public float fuelmax = 100f;		//Maximum Fuel level
-	private bool boosting;
+    public float fuel;        //Current Fuel, acts as a timer
+    private bool boosting;
 
 
     public void Start()
@@ -14,6 +14,7 @@ public class Player : Vehicle
         base.Start();
 		friendly = true;
 		GameObject.DontDestroyOnLoad (gameObject);
+        fuel = fuelmax;
     }
     public void Update()
     {
