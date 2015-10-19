@@ -45,7 +45,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: 0130f076227d6fc4da744a71646c0f23, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 1
+  m_UseLightProbes: 0
   m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
@@ -146,8 +146,12 @@ MonoBehaviour:
   friendly: 0
   damage: 1
   range: 2
-  velocity: {x: 0, y: 0, z: 30}
+  velocity: {x: 23.2992153, y: 6.43659163, z: -17.7684326}
   scale: 1
+  blastradius: 0
+  explosive: 0
+  homing: 0
+  tracking: 0
 --- !u!135 &13587088
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -171,6 +175,10 @@ Prefab:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 8b76cff51a7d7e844b0adf5da4371ec6, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_UseLightProbes
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 184350}

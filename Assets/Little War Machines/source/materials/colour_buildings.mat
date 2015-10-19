@@ -42,11 +42,11 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 0, g: .573816299, b: 1, a: 1}
+        second: {r: .903448343, g: 1, b: 0, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: 0, g: .573816299, b: 1, a: 1}
+        second: {r: .655172348, g: 1, b: 0, a: 1}
 --- !u!1002 &2100001
 EditorExtensionImpl:
   serializedVersion: 6
