@@ -3,20 +3,18 @@ using UnityEngine;
 
 public class Player : Vehicle
 {
-	private float fuel;					//Current Fuel, acts as a timer
 	public float fueldecay = .5f;		//Amount of Fuel consumed per second
 	public float fuelmax = 100f;		//Maximum Fuel level
-	private bool boosting;
-	public AudioSource healthsfx;
-	public AudioSource upgradesfx;
-	public AudioSource fuelsfx;
-	public AudioSource deathsfx;
+    public float fuel;        //Current Fuel, acts as a timer
+    private bool boosting;
+
 
     public void Start()
     {
         base.Start();
 		friendly = true;
 		GameObject.DontDestroyOnLoad (gameObject);
+        fuel = fuelmax;
     }
     public void Update()
     {
@@ -106,27 +104,9 @@ public class Player : Vehicle
 		if (fuel <= 0f) {
 			GameController.get ().Death(this);
 		}
-		if (invul > 0) {
-			gameObject.GetComponent<Light> ().intensity = 8;
-		} else {
-			gameObject.GetComponent<Light> ().intensity = 0;
-		}
     }
 	//Restores fuel by amount
 	public void refuel(float amount){
 		fuel += amount;
-		fuelsfx.Play ();
-	}
-	public void Heal(float healing){
-		base.Heal (healing);
-		healthsfx.Play ();
-	}
-	public void Upgrade(float damage, float hp, float firerate, float shotscale, float range, float shotspeed, float speed, float scale){
-		base.Upgrade (damage, hp, firerate, shotscale, range, shotspeed, speed, scale);
-		upgradesfx.Play ();
-	}
-	public void Destroy(){
-		deathsfx.Play();
-		base.Destroy ();
 	}
 }

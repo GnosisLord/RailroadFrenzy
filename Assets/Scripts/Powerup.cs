@@ -4,6 +4,7 @@ using System.Collections;
 public class Powerup : MonoBehaviour {
 	public float damage; 		//Change in Damage
 	public float hp;			//Change in HPMax
+    public float maxFuel;       //Change in fuelMax
 	public float firerate; 		//Change in FireRate
 	public float shotscale; 	//Change in Shotscale
 	public float range; 		//Change in Shot Range
@@ -27,7 +28,7 @@ public class Powerup : MonoBehaviour {
 	{
 		Player p = other.GetComponent<Player> ();
 		if (p != null) {
-			p.Upgrade(damage,hp,firerate,shotscale,range,shotspeed,speed,scale);
+			p.Upgrade(damage,hp,maxFuel,firerate,shotscale,range,shotspeed,speed,scale);
 		}
 
 		//remove this powerup
