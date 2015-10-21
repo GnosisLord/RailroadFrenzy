@@ -7,7 +7,10 @@ public class Player : Vehicle
 	public float fuelmax = 100f;		//Maximum Fuel level
     public float fuel;        //Current Fuel, acts as a timer
     private bool boosting;
-
+	public AudioSource healthsfx;
+	public AudioSource fuelsfx;
+	public AudioSource upgradesfx;
+	public AudioSource deathsfx;
 
     public void Start()
     {
@@ -102,11 +105,29 @@ public class Player : Vehicle
 			fuel -= fueldecay;
 		}
 		if (fuel <= 0f) {
-			GameController.get ().Death(this);
+			Destroy ();
+		}
+		if (invul > 0) {
+			gameObject.GetComponent<Light> ().intensity = 8;
+		} else {
+			gameObject.GetComponent<Light> ().intensity = 0;
 		}
     }
+	public void Upgrade(float damage, float hp, float maxFuel,float firerate, float shotscale, float range, float shotspeed, float speed, float scale){
+		base.Upgrade (damage, hp, maxFuel, firerate, shotscale, range, shotspeed, speed, scale);
+		upgradesfx.Play ();
+	}
 	//Restores fuel by amount
 	public void refuel(float amount){
 		fuel += amount;
+		fuelsfx.Play ();
+	}
+	public void Heal(float healing){
+		base.Heal (healing);
+		healthsfx.Play ();
+	}
+	public void Destroy(){
+		deathsfx.Play ();
+		base.Destroy ();
 	}
 }

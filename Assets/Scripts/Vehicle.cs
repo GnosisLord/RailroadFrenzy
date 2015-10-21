@@ -12,14 +12,16 @@ public class Vehicle : Destructible
 	public GameObject shot;		//Prefab of Projectile
 	public Vector3 shotoffset;	//Position offset when Projectile spawns
 	public Movable movement;	//Movement script of this gameObject
-    public Player player;
 
 	public bool explosiveshot;	//Fires explosive projectiles
 	public bool homingshot;		//Fires homing projectiles
 	public bool backshot;		//Fires forward and backward simultaneously
 	public bool quadshot;		//Fires in 4 directions simultaneously
 	public bool spreadshot;		//Fires 3 projectiles at forward angles
-	
+	public float fueldecay = .5f;		//Amount of Fuel consumed per second
+	public float fuelmax = 100f;		//Maximum Fuel level
+	public float fuel;        //Current Fuel, acts as a timer
+
     public void Start()
     {
         base.Start();
@@ -70,7 +72,7 @@ public class Vehicle : Destructible
 		this.damage += damage;
 		this.hpmax += hp;
 		this.hp += hp;
-        player.fuelmax += maxFuel;
+        this.fuelmax += maxFuel;
 		this.firerate += firerate;
 		this.shotscale += shotscale;
 		this.range += range;
