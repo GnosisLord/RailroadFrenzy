@@ -593,6 +593,9 @@ MonoBehaviour:
   backshot: 0
   quadshot: 1
   spreadshot: 0
+  fueldecay: .5
+  fuelmax: 100
+  fuel: 0
   aggroed: 0
   aggrorange: 30
   aggrodelay: 1
@@ -604,7 +607,17 @@ MonoBehaviour:
   blastrange: 0
   seeking: 0
   wandering: 1
-  drops: []
+  drops:
+  - {fileID: 172144, guid: 74b38d7c987ed4847a4b233fa6df6847, type: 2}
+  - {fileID: 172144, guid: 8b86c5163c8af4849a7c072673bffe94, type: 2}
+  - {fileID: 172144, guid: 84671ec26be49894883ae22dfa285d7a, type: 2}
+  - {fileID: 172144, guid: 354d9519225e6aa44ab8887bbd066657, type: 2}
+  - {fileID: 102474, guid: f6f5c69dfbe3dcd449215d6cc9d1dae2, type: 2}
+  - {fileID: 102474, guid: 195df83241927324f8f7df7e9f418ad8, type: 2}
+  - {fileID: 172144, guid: 1e5a4ad050d0b8a40a2268f7f5745a00, type: 2}
+  - {fileID: 102474, guid: 82640c0c2f93b934caa24bd2c66d7f17, type: 2}
+  - {fileID: 102474, guid: f651241c109074b41a8fbfa6cea45a0a, type: 2}
+  - {fileID: 172144, guid: 58f1529f969241a47a7c402a2b60a571, type: 2}
 --- !u!114 &11493080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -627,7 +640,51 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: drops.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[0]
+      value: 
+      objectReference: {fileID: 172144, guid: 74b38d7c987ed4847a4b233fa6df6847, type: 2}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[1]
+      value: 
+      objectReference: {fileID: 172144, guid: 8b86c5163c8af4849a7c072673bffe94, type: 2}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[2]
+      value: 
+      objectReference: {fileID: 172144, guid: 84671ec26be49894883ae22dfa285d7a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[3]
+      value: 
+      objectReference: {fileID: 172144, guid: 354d9519225e6aa44ab8887bbd066657, type: 2}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[4]
+      value: 
+      objectReference: {fileID: 102474, guid: f6f5c69dfbe3dcd449215d6cc9d1dae2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[5]
+      value: 
+      objectReference: {fileID: 102474, guid: 195df83241927324f8f7df7e9f418ad8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[6]
+      value: 
+      objectReference: {fileID: 172144, guid: 1e5a4ad050d0b8a40a2268f7f5745a00, type: 2}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[7]
+      value: 
+      objectReference: {fileID: 102474, guid: 82640c0c2f93b934caa24bd2c66d7f17, type: 2}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[8]
+      value: 
+      objectReference: {fileID: 102474, guid: f651241c109074b41a8fbfa6cea45a0a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: drops.Array.data[9]
+      value: 
+      objectReference: {fileID: 172144, guid: 58f1529f969241a47a7c402a2b60a571, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 122296}

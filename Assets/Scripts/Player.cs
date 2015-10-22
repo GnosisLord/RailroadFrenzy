@@ -3,9 +3,6 @@ using UnityEngine;
 
 public class Player : Vehicle
 {
-	public float fueldecay = .5f;		//Amount of Fuel consumed per second
-	public float fuelmax = 100f;		//Maximum Fuel level
-    public float fuel;        //Current Fuel, acts as a timer
     private bool boosting;
 	public AudioSource healthsfx;
 	public AudioSource fuelsfx;
@@ -100,9 +97,9 @@ public class Player : Vehicle
 		}
 		//Fuel consumption
 		if (boosting) {
-			fuel -= 10*fueldecay;
+			fuel -= 10*fueldecay * Time.deltaTime;
 		} else {
-			fuel -= fueldecay;
+			fuel -= fueldecay * Time.deltaTime;
 		}
 		if (fuel <= 0f) {
 			Destroy ();

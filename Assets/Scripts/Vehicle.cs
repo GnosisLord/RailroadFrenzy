@@ -70,15 +70,39 @@ public class Vehicle : Destructible
 	//Increases stats, called by upgrades
 	public void Upgrade(float damage, float hp, float maxFuel,float firerate, float shotscale, float range, float shotspeed, float speed, float scale){
 		this.damage += damage;
+		if (damage < .5f) {
+			damage = .5f;
+		}
 		this.hpmax += hp;
+		if (hpmax < 1f){
+			hpmax = 1f;
+		}
 		this.hp += hp;
         this.fuelmax += maxFuel;
 		this.firerate += firerate;
+		if (firerate < .25f) {
+			firerate = .25f;
+		}
 		this.shotscale += shotscale;
+		if(shotscale < .25){
+			shotscale = .25f;
+		}
 		this.range += range;
+		if(range < .5f){
+			range = .5f;
+		}
 		this.shotspeed += shotspeed;
+		if(shotspeed < 5f){
+			shotspeed = 5f;
+		}
 		movement.maxspeed += speed;
+		if(movement.maxspeed < 2){
+			movement.maxspeed = 2f;
+		}
 		this.scale += scale;
+		if(this.scale > 5){
+			scale = 5f;
+		}
 		gameObject.GetComponent<Rigidbody> ().mass *= scale;
 	}
 	//Destruction of this vehicle, informs controller

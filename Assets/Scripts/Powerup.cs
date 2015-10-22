@@ -13,6 +13,10 @@ public class Powerup : MonoBehaviour {
 	public float scale;			//Change in Scale
 	public string name;			//Name of this Upgrade
 	public string description;	//Description of this Upgrade
+	public bool backshot = false;
+	public bool quadshot = false;
+	public bool spreadshot = false;
+	public bool explosiveshot = false;
 	// Use this for initialization
 	void Start () {
 	
@@ -29,6 +33,18 @@ public class Powerup : MonoBehaviour {
 		Player p = other.GetComponent<Player> ();
 		if (p != null) {
 			p.Upgrade(damage,hp,maxFuel,firerate,shotscale,range,shotspeed,speed,scale);
+			if(backshot){
+				p.backshot = true;
+			}
+			if(quadshot){
+				p.quadshot = true;
+			}
+			if(spreadshot){
+				p.spreadshot = true;
+			}
+			if(explosiveshot){
+				p.explosiveshot = true;
+			}
 		}
 
 		//remove this powerup

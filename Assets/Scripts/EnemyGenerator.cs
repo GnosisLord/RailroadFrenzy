@@ -7,6 +7,7 @@ public class EnemyGenerator : Enemy {
 	public GameObject child; //Enemy spawned if Generator
 	public float spawntimer; //Time between enemy spawns
 	private float spawning; //Time until next enemy spawn
+	public Vector3 spawnoffset = new Vector3 ();
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +22,7 @@ public class EnemyGenerator : Enemy {
 				if (spawning > 0) {
 					spawning -= Time.deltaTime;
 				} else {
-					Instantiate (child, transform.position, transform.rotation);
+					Instantiate (child, transform.position+spawnoffset, transform.rotation);
 					spawning = spawntimer;
 				}
 			}
