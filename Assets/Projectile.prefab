@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 181798}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
   m_LocalPosition: {x: -.0699996948, y: -2.05800009, z: 1.45799994}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78,7 +78,6 @@ AudioSource:
   m_Pitch: 1
   Loop: 0
   Mute: 0
-  Spatialize: 0
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
@@ -145,12 +144,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   friendly: 1
-  damage: 3
-  range: 1
-  velocity: {x: 0, y: 5.37838741e-06, z: 35}
-  scale: 1
+  damage: 4
+  range: 2
+  velocity: {x: -25.0000038, y: -1.41484161e-05, z: -2.98023338e-06}
+  scale: 3
   blastradius: 0
-  explosive: 0
+  explosive: 1
   homing: 0
   tracking: 0
 --- !u!135 &13593642

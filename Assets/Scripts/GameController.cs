@@ -4,6 +4,7 @@ using System;
 
 public class GameController : MonoBehaviour {
 	public Player player; 						//Reference to Player Object
+	public UI gui;
 	private static GameController controller;	//Singleton instance of GameController
 	private static System.Random rng;			//Only need one random number generator
 	private static int killcount;						//Number of enemies killed
@@ -14,6 +15,7 @@ public class GameController : MonoBehaviour {
 		rng = new System.Random ();
 		killcount = 0;
 		GameObject.DontDestroyOnLoad (gameObject);
+		Message ("Get to the Chopper!","WASD to move, Arrows to shoot",5);
 	}
 	
 	// Update is called once per frame
@@ -38,14 +40,13 @@ public class GameController : MonoBehaviour {
 	public void Death(Vehicle killed)
 	{
 		if(killed == player){
-			Message("Game Over","Reset Esc to restart");
+			Message("Game Over","Reset Esc to restart",30);
 		}
 		if(!killed.friendly){
 			killcount+=1;
 		}
 	}
-	//TODO message to display on UI
-	public static void Message(String message, String submessage){
-
+	public static void Message(String message, String submessage, float time){
+		controller.gui.Message (message, submessage, time);
 	}
 }

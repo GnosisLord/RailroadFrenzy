@@ -26,19 +26,19 @@ public class Destructible : MonoBehaviour
     }
 
 	//Reduce HP by damage if not invulnerable and initiate invulnerability
-    public void Damage(float damage)
+    public virtual void Damage(float damage)
     {
         if (invul <= 0 && !immortal) {
 			hp -= damage;
 			if (hp <= 0) {
-				Destroy ();
+				this.Destroy ();
 			} else {
 				invul = invulduration;
 			}
 		} 
     }
 	//This is destroyed, called if HP = 0
-    public void Destroy()
+    public virtual void Destroy()
     {
         Destroy(gameObject);
     }

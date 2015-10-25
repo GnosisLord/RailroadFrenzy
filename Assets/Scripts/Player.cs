@@ -16,7 +16,7 @@ public class Player : Vehicle
 		GameObject.DontDestroyOnLoad (gameObject);
         fuel = fuelmax;
     }
-    public void Update()
+    public override void Update()
     {
         base.Update();
 		//Movement Controls
@@ -123,7 +123,7 @@ public class Player : Vehicle
 		base.Heal (healing);
 		healthsfx.Play ();
 	}
-	public void Destroy(){
+	public override void Destroy(){
 		deathsfx.Play ();
 		base.Destroy ();
 	}

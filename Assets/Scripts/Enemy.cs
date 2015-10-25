@@ -32,7 +32,7 @@ public class Enemy : Vehicle {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public override void Update () {
 		//Gets Player reference if it doesn't have it
 		if (player == null) {
 			player = GameController.get ().getPlayer ();
@@ -61,10 +61,10 @@ public class Enemy : Vehicle {
 					Explode ();
 				}
 			}
-		} else if (aggrotimer <= 0) {
+		} if (aggrotimer <= 0) {
 			//Check for Aggro
-			aggroed = Aggro (aggrorange);
 			aggrotimer = aggrodelay;
+			aggroed = Aggro (aggrorange);
 		} else {
 			aggrotimer-=Time.deltaTime;
 		}
@@ -85,11 +85,17 @@ public class Enemy : Vehicle {
 		Collider[] nearby = Physics.OverlapSphere (transform.position, range);
 		foreach (Collider obj in nearby) {
 			if (obj.gameObject.GetComponent<Player>()!=null){
+				aggrotimer = 10;
 				return true;
 			}
 		}
 		return false;
 		
+	}
+	public override void Damage(float damage){
+		base.Damage (damage);
+		aggroed = true;
+		aggrotimer = 10f;
 	}
 	//Determines angle to target at 45 degree increments
 	public float FindDirection(GameObject target){
@@ -172,7 +178,7 @@ public class Enemy : Vehicle {
 	}
 
 	//Collision damages Player
-	void OnCollisionEnter (Collision col)
+	public void OnCollisionEnter (Collision col)
 	{
 		if (col.gameObject.GetComponent<Vehicle>() != null)
 		{
@@ -191,5 +197,8 @@ public class Enemy : Vehicle {
 			}
 		}
 		Destroy(this.gameObject);
+	}
+	public override void Destroy(){
+		base.Destroy ();
 	}
 }

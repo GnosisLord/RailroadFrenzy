@@ -94,7 +94,7 @@ MonoBehaviour:
   shotspeed: 0
   speed: 0
   scale: .25
-  name: Reargunner
+  upgradename: Reargunner
   description: Fires out back
   backshot: 1
   quadshot: 0
@@ -150,6 +150,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: backshot
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: upgradename
+      value: Reargunner
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

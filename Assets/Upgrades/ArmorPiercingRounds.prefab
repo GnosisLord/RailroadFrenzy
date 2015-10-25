@@ -94,7 +94,7 @@ MonoBehaviour:
   shotspeed: 0
   speed: 0
   scale: .200000003
-  name: Armor Piercing Rounds
+  upgradename: Armor Piercing Rounds
   description: Increased damage and range
   backshot: 0
   quadshot: 0
@@ -135,6 +135,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ecc028ce6a7a9ce488f8fea815e5c612, type: 2}
+    - target: {fileID: 0}
+      propertyPath: upgradename
+      value: Armor Piercing Rounds
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 172144}

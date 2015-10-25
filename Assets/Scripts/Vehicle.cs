@@ -28,7 +28,7 @@ public class Vehicle : Destructible
         firecd = 0f;
 
     }
-    public void Update()
+    public virtual void Update()
     {
         base.Update();
         if(firecd>0){
@@ -106,7 +106,7 @@ public class Vehicle : Destructible
 		gameObject.GetComponent<Rigidbody> ().mass *= scale;
 	}
 	//Destruction of this vehicle, informs controller
-	public void Destroy()
+	public override void Destroy()
 	{
 		GameController.get ().Death (this);
 		Destroy(gameObject);

@@ -90,12 +90,16 @@ MonoBehaviour:
   maxFuel: 0
   firerate: -1
   shotscale: 2
-  range: 0
+  range: 1
   shotspeed: -5
   speed: 0
   scale: .25
-  name: Seige Cannon
-  description: Heavy shots, lower rate of fire
+  upgradename: Seige Cannon
+  description: Huge shots, lower rate of fire
+  backshot: 0
+  quadshot: 0
+  spreadshot: 0
+  explosiveshot: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -117,7 +121,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: description
-      value: Heavy shots, lower rate of fire
+      value: Huge shots, lower rate of fire
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: hp
@@ -142,6 +146,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: shotscale
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: upgradename
+      value: Seige Cannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: range
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

@@ -94,7 +94,7 @@ MonoBehaviour:
   shotspeed: 0
   speed: 0
   scale: .25
-  name: Explosive Rounds
+  upgradename: Explosive Rounds
   description: Shots explode at end of range
   backshot: 0
   quadshot: 0
@@ -154,6 +154,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: explosiveshot
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: upgradename
+      value: Explosive Rounds
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

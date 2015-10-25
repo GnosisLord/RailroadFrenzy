@@ -426,6 +426,9 @@ MonoBehaviour:
   backshot: 0
   quadshot: 0
   spreadshot: 0
+  fueldecay: .5
+  fuelmax: 100
+  fuel: 0
   aggroed: 0
   aggrorange: 40
   aggrodelay: 1
@@ -440,6 +443,7 @@ MonoBehaviour:
   generator: 1
   child: {fileID: 193536, guid: 8845450d298acee4aa86b9a56accb590, type: 2}
   spawntimer: 2
+  spawnoffset: {x: 4, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -453,6 +457,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: spawnoffset.x
       value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []

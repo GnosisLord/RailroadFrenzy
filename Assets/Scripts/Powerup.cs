@@ -11,7 +11,7 @@ public class Powerup : MonoBehaviour {
 	public float shotspeed; 	//Change in Projectile Speed
 	public float speed; 		//Change in Movement Speed
 	public float scale;			//Change in Scale
-	public string name;			//Name of this Upgrade
+	public string upgradename;			//Name of this Upgrade
 	public string description;	//Description of this Upgrade
 	public bool backshot = false;
 	public bool quadshot = false;
@@ -46,6 +46,7 @@ public class Powerup : MonoBehaviour {
 				p.explosiveshot = true;
 			}
 		}
+		GameController.Message (upgradename, description,3f);
 
 		//remove this powerup
 		Destroy (this.gameObject);
