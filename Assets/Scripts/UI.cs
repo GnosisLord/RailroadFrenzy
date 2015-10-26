@@ -11,6 +11,7 @@ public class UI : MonoBehaviour {
 	private float messagetime;
 	private bool textdisplay;
 	private float refreshdelay;
+	public Sprite hb5;
 
 	// Use this for initialization
 	void Start () {

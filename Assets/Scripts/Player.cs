@@ -213,6 +213,8 @@ public class Player : Vehicle
 	//Restores fuel by amount
 	public void refuel(float amount){
 		fuel += amount;
+		if (fuel > fuelmax)
+			fuel = fuelmax;
 		fuelsfx.Play ();
 	}
 	public void Heal(float healing){
