@@ -81,6 +81,7 @@ public class Player : Vehicle
 
                     helicopter.transform.position = new Vector3(x, y, z);
                     this.transform.position = new Vector3(x, y - 1, z);
+					GameController.Message ("Escaped!","Congratulations. Press Esc to restart.",20f);
                 }    
             }         
         }
