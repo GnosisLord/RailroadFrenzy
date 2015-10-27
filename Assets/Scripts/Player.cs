@@ -19,6 +19,7 @@ public class Player : Vehicle
 		friendly = true;
 		GameObject.DontDestroyOnLoad (gameObject);
         fuel = fuelmax;
+		GameController.Message ("Get to the Chopper!","WASD to move, Arrows to shoot",5);
     }
     public override void Update()
     {
@@ -213,6 +214,8 @@ public class Player : Vehicle
 	//Restores fuel by amount
 	public void refuel(float amount){
 		fuel += amount;
+		if (fuel > fuelmax)
+			fuel = fuelmax;
 		fuelsfx.Play ();
 	}
 	public void Heal(float healing){
